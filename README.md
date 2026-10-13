@@ -1,6 +1,6 @@
 # Fahad Khan
 
-## 🎓 Campus Placement Predictor
+## Fahad Khan
 
 An **end-to-end machine learning project** that predicts whether a student will get
 placed during campus recruitment, based on **CGPA** and **IQ score**.
