@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title="Placement Predictor", page_icon="🎓", layout="centered")
+st.set_page_config(page_title="Fahad Khan", page_icon="🎓", layout="centered")
 
 with open("model.pkl", "rb") as f:
     clf = pickle.load(f)
@@ -19,7 +19,7 @@ with open("scaler.pkl", "rb") as f:
 
 df = pd.read_csv("placement_data.csv")
 
-st.title("🎓 Campus Placement Predictor")
+st.title("Fahad Khan")
 st.write(
     "An end-to-end ML model (logistic regression, 85% test accuracy) that predicts "
     "whether a student gets placed, based on CGPA and IQ score."
